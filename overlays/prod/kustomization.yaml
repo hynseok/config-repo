@@ -6,7 +6,6 @@ patchesStrategicMerge:
 resources:
 - ../../base
 - namespace.yaml
-
 images:
 - name: hynseok/gitops
   newTag: 20a0b90ed9006a3d6555bc2812719c2310d61a29
