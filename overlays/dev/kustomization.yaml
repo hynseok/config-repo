@@ -5,7 +5,7 @@ patchesStrategicMerge:
 - ingress.yaml
 resources:
 - ../../base
--namespace.yaml
+- namespace.yaml
 images:
 - name: hynseok/gitops
   newTag: "74"
