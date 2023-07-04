@@ -9,4 +9,4 @@ resources:
 
 images:
 - name: hynseok/gitops
-  newTag: 4d1728e228782cbbb8ee7a2b0361755df3378241
+  newTag: 20a0b90ed9006a3d6555bc2812719c2310d61a29
