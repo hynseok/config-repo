@@ -8,4 +8,4 @@ resources:
 - namespace.yaml
 images:
 - name: hynseok/gitops
-  newTag: "74"
+  newTag: 70dfb571e040bb26748a24b14e8b39c346bb7751
