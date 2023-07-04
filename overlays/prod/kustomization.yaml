@@ -1,10 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: prod
+namespace: hyunseok-practice-prod
 patchesStrategicMerge:
 - ingress.yaml
 resources:
 - ../../base
+- namespace.yaml
+
 images:
 - name: hynseok/gitops
   newTag: 4d1728e228782cbbb8ee7a2b0361755df3378241
