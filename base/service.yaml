@@ -7,6 +7,5 @@ spec:
     - port: 80
       targetPort: 7878
       protocol: TCP
-  type: NodePort
   selector:
     app.kubernetes.io/name: hynseok-app
