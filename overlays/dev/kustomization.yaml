@@ -9,4 +9,4 @@ resources:
 
 images:
 - name: hynseok/simple-webserver
-  newTag: 70dfb571e040bb26748a24b14e8b39c346bb7751
+  newTag: 7b80bf0940899f02f66b0b3ad9cd7a87e07ecfd4
