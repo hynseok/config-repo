@@ -13,8 +13,8 @@ spec:
         app.kubernetes.io/name: app
     spec:
       containers:
-      - image: hynseok/gitops
+      - image: hynseok/simple-webserver
         imagePullPolicy: Always
         name: app
         ports:
-        - containerPort: 80
+        - containerPort: 7878
