@@ -7,5 +7,5 @@ resources:
 - ../../base
 - namespace.yaml
 images:
-- name: hynseok/gitops
+- name: hynseok/simple-webserver
   newTag: 70dfb571e040bb26748a24b14e8b39c346bb7751
