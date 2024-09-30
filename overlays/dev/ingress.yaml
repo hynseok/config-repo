@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - hyunseok.scg.skku.ac.kr
-    secretName: gitops-tls
+    - hyunsuk.k8s.scg.skku.ac.kr
+    secretName: simple-webserver-tls
   rules:
-  - host: hyunseok.scg.skku.ac.kr
+  - host: hyunsuk.k8s.scg.skku.ac.kr
     http:
       paths:
       - backend:
